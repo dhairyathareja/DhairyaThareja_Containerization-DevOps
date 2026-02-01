@@ -1,1 +1,1 @@
-This Github Repo is for Containerization and DevOps Lab.
+This Github Repo is for Containerization and DevOps Learning Journey.
