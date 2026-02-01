@@ -1,7 +1,8 @@
-## Experiment-1 : VM vs Container
+<h2 align="center"> Experiment-1 : VM vs Container </h2>
 
 
 #### PART-A:- Virtual Machine (Windows)
+<hr>
 
 **Step 1: Download Virtual Box from [here](https://www.virtualbox.org/wiki/Downloads)**
 
@@ -78,6 +79,7 @@ vagrant destroy
 
 
 #### PART-B:- Containers using WSL (Windows)
+<hr>
 
 **Step 1: Install WSL**
 ```powershell
