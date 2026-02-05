@@ -72,7 +72,7 @@ docker build images
 **Step-5:- Run containers from image for verification**
 
 ```bash
-
+docker run -it sapid-checker:<YOUR_SAPID>
 ```
 ![Test via Container](./Images/4.png)
 ![Test via Container](./Images/5.png)
