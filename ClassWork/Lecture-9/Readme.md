@@ -13,7 +13,12 @@ Docker controls its lifecycle.
 
 #### Procedure
 
+<hr>
+
 <h6 align='center'>Volume</h6>
+
+<hr>
+
 
 **Step-1:- Create a Volume**
 ```bash
@@ -88,4 +93,3 @@ ls
 cat hello.txt
 ```
 ![Verify File](./Images/8.png)
-
