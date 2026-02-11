@@ -2,7 +2,7 @@
 
 #### Introduction
 Containers are ephemeral.
-Data stored inside container filesystem is deleted when the container is removed. \\
+Data stored inside container filesystem is deleted when the container is removed. 
 A **volume** is a Docker-managed storage location stored under:
 ```
 /var/lib/docker/volumes/
