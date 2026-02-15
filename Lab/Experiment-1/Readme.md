@@ -159,13 +159,12 @@ free -h
 
 
 
-<div>
+<div align="center">
 
-  <span style="float:right">
-    <a href="../Experiment-2/Readme.md">Next ➡️</a>
-  </span>
+| | | |
+|:--|:--:|--:|
+|| <a href="../../Lab/Readme.md">⌂ Home | <a href="../Experiment-2/Readme.md">Next ➡️</a> |
+
 </div>
-
-<br clear="both"/>
 
 

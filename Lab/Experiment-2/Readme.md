@@ -61,7 +61,7 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 
 | | | |
 |:--|:--:|--:|
-| <a href="../Experiment-1/Readme.md">⬅️ Previous</a> |  | <a href="../Experiment-3/Readme.md">Next ➡️</a> |
+| <a href="../Experiment-1/Readme.md">⬅️ Previous</a> | <a href="../../Lab/Readme.md">⌂ Home | <a href="../Experiment-3/Readme.md">Next ➡️</a> |
 
 </div>
 

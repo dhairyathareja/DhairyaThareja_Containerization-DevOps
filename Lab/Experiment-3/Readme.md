@@ -285,16 +285,10 @@ _Example use cases:_
 
 <hr>
 
----
+<div align="center">
 
-<div>
-  <span style="float:left">
-    <a href="../Experiment-2/Readme.md">⬅️ Previous</a>
-  </span>
+| | | |
+|:--|:--:|--:|
+| <a href="../Experiment-2/Readme.md">⬅️ Previous</a> | <a href="../../Lab/Readme.md">⌂ Home | |
 
-  
 </div>
-
-<br clear="both"/>
-
----
