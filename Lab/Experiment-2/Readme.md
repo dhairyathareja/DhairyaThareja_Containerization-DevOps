@@ -56,16 +56,11 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 <hr>
 
 
-
-&nbsp;
-
  
-| | |
-|:--|--:|
-| <a href="../Experiment-1/Readme.md"><img src="https://img.shields.io/badge/⬅️_Previous-grey?style=for-the-badge"></a> | <a href="../Experiment-3/Readme.md"><img src="https://img.shields.io/badge/Next_➡️-blue?style=for-the-badge"></a> |
+| | | |
+|:--|:--:|--:|
+| <a href="../Experiment-1/Readme.md">⬅️ Previous</a> |                 | <a href="../Experiment-3/Readme.md">Next ➡️</a> |
 
-
-&nbsp;
 
 
 
