@@ -58,13 +58,13 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 
 
 <div>
-  <div style="float:left">
+  <span style="float:left">
     <a href="../Experiment-1/Readme.md">⬅️ Previous</a>
-  </div>
+  </span>
 
-  <div style="float:right">
+  <span style="float:right">
     <a href="../Experiment-3/Readme.md">Next ➡️</a>
-  </div>
+  </span>
 </div>
 
 <br clear="both"/>
