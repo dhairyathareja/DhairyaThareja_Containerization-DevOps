@@ -163,7 +163,7 @@ free -h
 
 | | | |
 |:--|:--:|--:|
-|| <a href="../../Lab/Readme.md">⌂ Home | <a href="../Experiment-2/Readme.md">Next ➡️</a> |
+|| <a href="../../Lab/Readme.md">⌂ Home </a> | <a href="../Experiment-2/Readme.md">Next ➡️</a> |
 
 </div>
 
