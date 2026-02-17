@@ -287,8 +287,12 @@ _Example use cases:_
 
 <div align="center">
 
-| | | |
-|:--|:--:|--:|
-| <a href="../Experiment-2/">⬅️ Previous</a> | <a href="../../Lab/">⌂ Home </a>| |
+<a href="../Experiment-2/">
+  <img src="https://img.shields.io/badge/⬅️_Previous-grey?style=for-the-badge">
+</a>
+&nbsp;
+<a href="../../Lab/">
+  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
+</a>
 
 </div>

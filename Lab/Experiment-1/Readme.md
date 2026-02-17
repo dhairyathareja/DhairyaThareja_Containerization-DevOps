@@ -161,10 +161,12 @@ free -h
 
 <div align="center">
 
-| | | |
-|:--|:--:|--:|
-|| <a href="../../Lab/Readme.md">⌂ Home </a> | <a href="../Experiment-2/Readme.md">Next ➡️</a> |
+<a href="../../Lab/">
+  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
+</a>
+&nbsp;
+<a href="../Experiment-2/">
+  <img src="https://img.shields.io/badge/Next_➡️-blue?style=for-the-badge">
+</a>
 
 </div>
-
-
