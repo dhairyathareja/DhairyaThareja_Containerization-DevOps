@@ -289,6 +289,6 @@ _Example use cases:_
 
 | | | |
 |:--|:--:|--:|
-| <a href="../Experiment-2/Readme.md">⬅️ Previous</a> | <a href="../../Lab/Readme.md">⌂ Home | |
+| <a href="../Experiment-2/">⬅️ Previous</a> | <a href="../../Lab/">⌂ Home | |
 
 </div>
