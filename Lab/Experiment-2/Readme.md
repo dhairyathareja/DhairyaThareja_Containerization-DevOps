@@ -1,7 +1,7 @@
 
 ## Experiment 2:- Docker Installation, Configuration, and Running Images
 
-**Step 1: Pull Image**
+**Step 1: Check Docker Version**
 
 ```bash
 docker --version
