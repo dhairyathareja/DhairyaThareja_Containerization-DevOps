@@ -1,9 +1,12 @@
 title: Containerization & DevOps
 description: Learning journey and hands-on experiments
-theme: just-the-docs
 
-# Enable theme switching
-color_scheme: dark   # default mode
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: dark
 enable_theme_switcher: true
 
 search_enabled: true
