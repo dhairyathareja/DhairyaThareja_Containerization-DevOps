@@ -58,7 +58,7 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 
 <p align="center">
 
-⬅️ **[Previous](../Experiment-1/Readme.md)** • 🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-3/Readme.md)** ➡️
+⬅️ **[Previous](../Experiment-1/Readme.md)** • 🏠︎ **[Home](../../Lab/Readme.md)** • **[Next](../Experiment-3/Readme.md)** ➡️
 
 </p>
 

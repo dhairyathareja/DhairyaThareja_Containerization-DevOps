@@ -160,6 +160,6 @@ free -h
 
 <p align="center">
 
-🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-2/Readme.md)** ➡️
+🏠︎ **[Home](../../Lab/Readme.md)** • **[Next](../Experiment-2/Readme.md)** ➡️
 
 </p>

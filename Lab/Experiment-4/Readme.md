@@ -534,7 +534,7 @@ docker system prune -a
 
 <p align="center">
 
-⬅️ **[Previous](../Experiment-3/Readme.md)** • 🏠︎ **[Home](../../Lab/)** 
+⬅️ **[Previous](../Experiment-3/Readme.md)** • 🏠︎ **[Home](../../Lab/Readme.md)** 
 
 <!-- • **[Next](../Experiment-5/Readme.md)** ➡️ -->
 
