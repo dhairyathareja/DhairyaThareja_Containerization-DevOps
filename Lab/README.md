@@ -13,10 +13,10 @@ The table below provides an overview of the lab experiments included in this rep
 
 | Experiment No.                          | Title                                        | Result   | 
 |:---------------------------------------:|:--------------------------------------------:|:--------:|
-| [Experiment-1](./Experiment-1/Readme.md)| VM vs Container - Utilization | The experiment demonstrates that containers are significantly more lightweight and resource-efficient compared to virtual machines |
-| [Experiment-2](./Experiment-2/Readme.md)| Docker Installation, Configuration, and Running Images | Docker images were successfully pulled, containers executed, and lifecycle commands performed. |
-| [Experiment-3](./Experiment-3/Readme.md)| Docker Deploy NGINX Using Different Base Images and Comparing Image Layers | Use Official nginx on production deployment whereas Alpine-Based Image with Microservices. |
-| [Experiment-4](./Experiment-4/Readme.md)| Containerizing Applications with Dockerfile | Containerizing prevents from dependency issue or version outages |
+| [Experiment-1](./Experiment-1/)| VM vs Container - Utilization | The experiment demonstrates that containers are significantly more lightweight and resource-efficient compared to virtual machines |
+| [Experiment-2](./Experiment-2/)| Docker Installation, Configuration, and Running Images | Docker images were successfully pulled, containers executed, and lifecycle commands performed. |
+| [Experiment-3](./Experiment-3/)| Docker Deploy NGINX Using Different Base Images and Comparing Image Layers | Use Official nginx on production deployment whereas Alpine-Based Image with Microservices. |
+| [Experiment-4](./Experiment-4/)| Containerizing Applications with Dockerfile | Containerizing prevents from dependency issue or version outages |
 
 
 
