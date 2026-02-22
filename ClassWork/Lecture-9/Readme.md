@@ -1,4 +1,4 @@
-<h2 align='center'>Data Management in Docker with <b>volume<b>, <b>bind mount<b> and <b>tempfs<b></h2>
+<h2 align='center'>Data Management in Docker with <b>Volume<b>, <b>bind mount<b> and <b>tempfs<b></h2>
 
 #### Introduction
 Containers are ephemeral.

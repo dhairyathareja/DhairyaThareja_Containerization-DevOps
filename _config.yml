@@ -1,3 +1,17 @@
-theme: jekyll-theme-midnight
 title: Containerization & DevOps
 description: Learning journey and hands-on experiments
+theme: just-the-docs
+
+# Enable theme switching
+color_scheme: light   # default mode
+enable_theme_switcher: true
+
+search_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Built by Dhairya Thareja 🚀"
+
+aux_links:
+  "View on GitHub":
+    - "https://github.com/dhairyathareja/DhairyaThareja_Containerization-DevOps"
