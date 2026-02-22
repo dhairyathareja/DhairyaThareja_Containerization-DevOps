@@ -3,7 +3,7 @@ description: Learning journey and hands-on experiments
 theme: just-the-docs
 
 # Enable theme switching
-color_scheme: light   # default mode
+color_scheme: dark   # default mode
 enable_theme_switcher: true
 
 search_enabled: true
