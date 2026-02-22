@@ -532,14 +532,10 @@ docker system prune -a
 
 <hr>
 
-<div align="center">
+<p align="center">
 
-<a href="../Experiment-3/">
-  <img src="https://img.shields.io/badge/⬅️_Previous-grey?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../../Lab/">
-  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
-</a>
+⬅️ **[Previous](../Experiment-3/Readme.md)** • 🏠︎ **[Home](../../Lab/)** 
 
-</div>
+<!-- • **[Next](../Experiment-5/Readme.md)** ➡️ -->
+
+</p>

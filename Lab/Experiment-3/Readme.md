@@ -285,18 +285,9 @@ _Example use cases:_
 
 <hr>
 
-<div align="center">
 
-<a href="../Experiment-2/">
-  <img src="https://img.shields.io/badge/⬅️_Previous-grey?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../../Lab/">
-  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../Experiment-4/">
-  <img src="https://img.shields.io/badge/Next_➡️-blue?style=for-the-badge">
-</a>
+<p align="center">
 
-</div>
+⬅️ **[Previous](../Experiment-2/Readme.md)** • 🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-4/Readme.md)** ➡️
+
+</p>

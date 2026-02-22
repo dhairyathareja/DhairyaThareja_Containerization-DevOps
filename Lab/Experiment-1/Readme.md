@@ -158,15 +158,8 @@ free -h
 <hr>
 
 
+<p align="center">
 
-<div align="center">
+🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-2/Readme.md)** ➡️
 
-<a href="../../Lab/">
-  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../Experiment-2/">
-  <img src="https://img.shields.io/badge/Next_➡️-blue?style=for-the-badge">
-</a>
-
-</div>
+</p>

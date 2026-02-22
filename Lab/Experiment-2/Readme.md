@@ -56,22 +56,11 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 <hr>
 
 
- 
-<div align="center">
+<p align="center">
 
-<a href="../Experiment-1/">
-  <img src="https://img.shields.io/badge/⬅️_Previous-grey?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../../Lab/">
-  <img src="https://img.shields.io/badge/⌂_Home-black?style=for-the-badge">
-</a>
-&nbsp;
-<a href="../Experiment-3/">
-  <img src="https://img.shields.io/badge/Next_➡️-blue?style=for-the-badge">
-</a>
+⬅️ **[Previous](../Experiment-1/Readme.md)** • 🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-3/Readme.md)** ➡️
 
-</div>
+</p>
 
 
 
