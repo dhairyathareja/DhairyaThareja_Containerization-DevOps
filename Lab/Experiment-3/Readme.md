@@ -288,6 +288,6 @@ _Example use cases:_
 
 <p align="center">
 
-⬅️ **[Previous](../Experiment-2/Readme.md)** • 🏠︎ **[Home](../../Lab/Readme.md)** • **[Next](../Experiment-4/Readme.md)** ➡️
+⬅️ **[Previous](../Experiment-2/)** • 🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-4/)** ➡️
 
 </p>
