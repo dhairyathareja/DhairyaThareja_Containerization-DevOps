@@ -532,10 +532,12 @@ docker system prune -a
 
 <hr>
 
-<p align="center">
+<div align="center">
 
-⬅️ **[Previous](../Experiment-3/Readme.md)** • 🏠︎ **[Home](../../Lab/Readme.md)** 
+<a href="../Experiment-2/" class="btn btn-outline">⬅️ Previous</a>
+&nbsp;&nbsp;
+<a href="../" class="btn">🏠︎ Home</a>
+&nbsp;&nbsp;
+<!-- <a href="../Experiment-4/" class="btn btn-primary">Next ➡️</a> -->
 
-<!-- • **[Next](../Experiment-5/Readme.md)** ➡️ -->
-
-</p>
+</div>

@@ -286,8 +286,12 @@ _Example use cases:_
 <hr>
 
 
-<p align="center">
+<div align="center">
 
-⬅️ **[Previous](../Experiment-2/)** • 🏠︎ **[Home](../../Lab/)** • **[Next](../Experiment-4/)** ➡️
+<a href="../Experiment-2/" class="btn btn-outline">⬅️ Previous</a>
+&nbsp;&nbsp;
+<a href="../" class="btn">🏠︎ Home</a>
+&nbsp;&nbsp;
+<a href="../Experiment-4/" class="btn btn-primary">Next ➡️</a>
 
-</p>
+</div>

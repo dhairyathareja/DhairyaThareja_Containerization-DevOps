@@ -158,8 +158,10 @@ free -h
 <hr>
 
 
-<p align="center">
+<div align="center">
 
-🏠︎ **[Home](../../Lab/Readme.md)** • **[Next](../Experiment-2/Readme.md)** ➡️
+<a href="../" class="btn">🏠︎ Home</a>
+&nbsp;&nbsp;
+<a href="../Experiment-2/" class="btn btn-primary">Next ➡️</a>
 
-</p>
+</div>

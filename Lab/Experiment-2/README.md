@@ -56,11 +56,15 @@ Docker images were successfully pulled, containers executed, and lifecycle comma
 <hr>
 
 
-<p align="center">
+<div align="center">
 
-⬅️ **[Previous](../Experiment-1/Readme.md)** • 🏠︎ **[Home](../../Lab/Readme.md)** • **[Next](../Experiment-3/Readme.md)** ➡️
+<a href="../Experiment-1/" class="btn btn-outline">⬅️ Previous</a>
+&nbsp;&nbsp;
+<a href="../" class="btn">🏠︎ Home</a>
+&nbsp;&nbsp;
+<a href="../Experiment-3/" class="btn btn-primary">Next ➡️</a>
 
-</p>
+</div>
 
 
 
