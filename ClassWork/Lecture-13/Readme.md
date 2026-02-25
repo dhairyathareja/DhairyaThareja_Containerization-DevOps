@@ -18,7 +18,7 @@
 
 
 
-**Step-1:- unning Nginx with Docker Run**
+**Step-1:- Running Nginx with Docker Run**
 ```bash
 docker run \
   --name my-nginx \
