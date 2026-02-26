@@ -154,7 +154,7 @@ docker ps
 ```
 ![List Container](./Images/5.png)
 
-**Note:-** \ 
+**Note:-**\
 You will notice that now there are _3_ containers for the Wordpress.
 
 
