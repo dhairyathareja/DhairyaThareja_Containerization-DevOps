@@ -27,26 +27,177 @@ npm i express pg
 
 
 **Step-4:- The `server.js` will look as follows:-**
+```js
+const express = require("express");
+const { Pool } = require("pg");
+
+
+const app = express();
+app.use(express.json());
+
+const pool = new Pool({
+  host: process.env.DB_HOST,
+  user: process.env.POSTGRES_USER,
+  password: process.env.POSTGRES_PASSWORD,
+  database: process.env.POSTGRES_DB,
+  port: 5432
+});
+
+async function initDB() {
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS users(
+        id SERIAL PRIMARY KEY,
+        name TEXT
+    )
+  `);
+}
+
+initDB();
+
+app.get("/health", (req, res) => {
+  res.send("Server healthy");
+});
+
+app.post("/users", async (req, res) => {
+  const { name } = req.body;
+
+  const result = await pool.query(
+    "INSERT INTO users(name) VALUES($1) RETURNING *",
+    [name]
+  );
+
+  res.json(result.rows[0]);
+});
+
+app.get("/users", async (req, res) => {
+  const result = await pool.query("SELECT * FROM users");
+  res.json(result.rows);
+});
+
+app.listen(3000, "0.0.0.0", () => {
+  console.log("Server running on port 3000");
+});
+```
 ![server.js](./Images/4.png)
 
 
 **Step-5:- The backend/`Dockerfile` will look as follows:-**
+```Dockerfile
+# Builder Stage
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install --only=production
+
+COPY . .
+
+# Runtime Stage
+FROM node:20-alpine
+
+WORKDIR /app
+
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
+COPY --from=builder /app .
+
+USER appuser
+
+EXPOSE 3000
+
+CMD ["node", "src/server.js"]
+```
 ![Dockerfile of backend](./Images/5.png)
 
 
 **Step-6:- The `.dockerignore` will look as follows:-**
+```bash
+node_modules
+npm-debug.log
+Dockerfile
+.git
+.gitignore
+````
 ![dockerignore](./Images/6.png)
 
 
 **Step-7:- The database/`Dockerfile` will look as follows:-**
+```Dockerfile
+FROM postgres:15-alpine
+
+COPY init.sql /docker-entrypoint-initdb.d/
+```
 ![Dockerfile](./Images/7.png)
 
 
 **Step-8:- The `init.sql` will look as follows:-**
+```sql
+CREATE TABLE IF NOT EXISTS users(
+    id SERIAL PRIMARY KEY,
+    name TEXT
+);
+```
 ![init.sql](./Images/8.png)
 
 
 **Step-9:- The `docker-compose.yml` will look as follows:-**
+```docker-compose
+version: "3.9"
+
+services:
+
+  database:
+    build: ./database
+    container_name: postgres_db
+    restart: always
+
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: dhairya
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+    networks:
+      macvlan_net:
+        ipv4_address: 192.168.50.21
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      retries: 5
+
+
+  backend:
+    build: ./backend
+    container_name: node_backend
+    restart: always
+
+    environment:
+      DB_HOST: 192.168.50.21
+      POSTGRES_DB: mydb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: dhairya
+
+    depends_on:
+      database:
+        condition: service_healthy
+
+    networks:
+      macvlan_net:
+        ipv4_address: 192.168.50.20
+
+
+volumes:
+  pgdata:
+
+networks:
+  macvlan_net:
+    external: true
+```
 ![docker-compose.yml](./Images/9.png)
 
 
