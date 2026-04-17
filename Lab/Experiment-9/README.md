@@ -257,7 +257,7 @@ for i in {1..4}; do docker rm -f server${i}; done
 
 <div align="center">
 
-<a href="../Experiment-4/" class="btn btn-outline">⬅️ Previous</a>
+<a href="../Experiment-7/" class="btn btn-outline">⬅️ Previous</a>
 &nbsp;&nbsp;
 <a href="../" class="btn">🏠︎ Home</a>
 &nbsp;&nbsp;
