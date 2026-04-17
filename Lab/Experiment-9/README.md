@@ -67,7 +67,7 @@ ansible localhost -m ping
 
 **Step-4:- Generate `ssh` Keys**
 ```bash
-ssh -jkeygen -t rsa -b 4096
+ssh -keygen -t rsa -b 4096
 ```
 ![Generate Keys](./Images/4.png)
 
