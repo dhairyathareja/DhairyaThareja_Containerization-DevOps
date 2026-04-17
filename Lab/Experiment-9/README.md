@@ -1,4 +1,4 @@
-## Experiment 4: Working with Ansible
+## Experiment 9: Working with Ansible
 <hr>
 
 <h4 align="center"> Introduction </h4>
@@ -257,7 +257,7 @@ for i in {1..4}; do docker rm -f server${i}; done
 
 <div align="center">
 
-<a href="../Experiment-2/" class="btn btn-outline">⬅️ Previous</a>
+<a href="../Experiment-4/" class="btn btn-outline">⬅️ Previous</a>
 &nbsp;&nbsp;
 <a href="../" class="btn">🏠︎ Home</a>
 &nbsp;&nbsp;
