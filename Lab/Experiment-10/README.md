@@ -1,4 +1,4 @@
-## Experiment 9: Working with SonarQube
+## Experiment 10: Working with SonarQube
 <hr>
 
 <h4 align="center"> Introduction </h4>
