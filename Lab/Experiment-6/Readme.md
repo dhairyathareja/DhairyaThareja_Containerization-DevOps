@@ -494,8 +494,6 @@ This experiment demonstrated:
 - How to deploy **WordPress + MySQL** using Docker Compose.
 - How containers communicate using internal networking.
 - Importance of **volumes for persistence**.
-- Scaling limitations of Compose.
-- Advantages of using **Docker Swarm for production-ready deployments**.
 
 
 <hr>

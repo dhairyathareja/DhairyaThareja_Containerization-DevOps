@@ -132,7 +132,7 @@ docker build -t ubuntu-server
 
 **Step-8:- Run container from build Image**
 ```bash
-ocker run -d -p --rm 2222:22 -p 8221:8221 --name ssh-test-server ubuntu-server
+docker run -d -p --rm 2222:22 -p 8221:8221 --name ssh-test-server ubuntu-server
 ```
 ![Verify Ansible](./Images/8.png)
 
