@@ -46,7 +46,7 @@
 
 **Step-1:- Install Ansible in WSL**
 ```bash
-sudo apt install -y
+sudo apt install ansible -y
 ```
 ![Install Ansible](./Images/1.png)
 
