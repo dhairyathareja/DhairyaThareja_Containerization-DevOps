@@ -1,4 +1,4 @@
-## Experiment 10:  Orchestration via Docker Swarm 
+## Experiment 11:  Orchestration via Docker Swarm 
 
 <hr>
 

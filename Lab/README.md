@@ -21,6 +21,8 @@ The table below provides an overview of the lab experiments included in this rep
 | [Experiment-7](./Experiment-7/)| CI/CD via Jenkins | Automate Build via Jenkins |
 | [Experiment-9](./Experiment-9/)| Ansible | Automate Infrastructure Orchestartion & Updations |
 | [Experiment-10](./Experiment-10/)| Working with SonarQube | Generate Code Quality Report via SonarQube |
+| [Experiment-11](./Experiment-11/)| Orchestration with Docker Swarm  | Compose defines the application. Swarm runs it reliably. |
+| [Experiment-12](./Experiment-12/)| Kubernetes | Kubernetes automatically decides where to run your app |
 
 
 
