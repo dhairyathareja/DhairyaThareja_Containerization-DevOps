@@ -186,6 +186,6 @@ kubectl get pods
 &nbsp;&nbsp;
 <a href="../" class="btn">🏠︎ Home</a>
 &nbsp;&nbsp;
-<a href="../Experiment-12/" class="btn btn-primary">Next ➡️</a>
+<!-- <a href="../Experiment-12/" class="btn btn-primary">Next ➡️</a> -->
 
 </div>
