@@ -182,7 +182,7 @@ kubectl get pods
 
 <div align="center">
 
-<a href="../Experiment-10/" class="btn btn-outline">⬅️ Previous</a>
+<a href="../Experiment-11/" class="btn btn-outline">⬅️ Previous</a>
 &nbsp;&nbsp;
 <a href="../" class="btn">🏠︎ Home</a>
 &nbsp;&nbsp;
