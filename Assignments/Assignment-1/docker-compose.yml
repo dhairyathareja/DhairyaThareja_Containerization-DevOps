@@ -2,53 +2,66 @@ version: "3.9"
 
 services:
 
-  database:
-    build: ./database
-    container_name: postgres_db
-    restart: always
+  db:
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    container_name: project_db
+    restart: unless-stopped
 
     environment:
       POSTGRES_DB: mydb
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: dhairya
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
 
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - pg_data:/var/lib/postgresql/data
 
     networks:
-      macvlan_net:
-        ipv4_address: 192.168.50.21
+      project_ipvlan_net:
+        ipv4_address: 192.168.100.11
 
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U admin"]
+      test: ["CMD-SHELL", "pg_isready -U myuser"]
       interval: 10s
+      timeout: 5s
       retries: 5
 
 
   backend:
-    build: ./backend
-    container_name: node_backend
-    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: project_backend
+    restart: unless-stopped
 
     environment:
-      DB_HOST: 192.168.50.21
+      DB_HOST: db
+      DB_PORT: 5432
       POSTGRES_DB: mydb
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: dhairya
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+
+    command: node src/server.js   # ✅ important
 
     depends_on:
-      database:
+      db:
         condition: service_healthy
 
     networks:
-      macvlan_net:
-        ipv4_address: 192.168.50.20
+      project_ipvlan_net:
+        ipv4_address: 192.168.100.10
 
 
 volumes:
-  pgdata:
+  pg_data:
 
 networks:
-  macvlan_net:
-    external: true
-
+  project_ipvlan_net:
+    driver: ipvlan
+    driver_opts:
+      parent: eth0
+    ipam:
+      config:
+        - subnet: 192.168.100.0/24
+          gateway: 192.168.100.1

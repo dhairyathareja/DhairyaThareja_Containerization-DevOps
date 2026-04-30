@@ -17,3 +17,7 @@ Contains guided in-class exercises, demonstrations, and practice tasks aimed at 
 📌 **Lab Experiments**  
 Includes detailed laboratory experiments performed to reinforce theoretical knowledge through practical implementation.  
 👉 [Explore Lab Experiments](./Lab/)
+
+📌 **Assignments**
+Comprises structured tasks and problem sets designed to assess understanding, encourage independent learning, and apply concepts to real-world scenarios.
+👉 [Explore Assignments](./Assignments/)
