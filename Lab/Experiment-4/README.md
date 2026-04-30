@@ -456,7 +456,7 @@ View Pushed Image on [DockerHub](https://hub.docker.com/repositories/dhairyathar
 <hr>
 
 
-## **Essential Docker Commands Cheatsheet**
+#### **Essential Docker Commands Cheatsheet**
 
 | Command | Purpose | Example |
 |---------|---------|---------|
@@ -475,9 +475,9 @@ View Pushed Image on [DockerHub](https://hub.docker.com/repositories/dhairyathar
 
 
 
-## **Common Workflow Summary**
+#### **Common Workflow Summary**
 
-### **Development Workflow:**
+**Development Workflow:**
 ```bash
 # 1. Create Dockerfile and .dockerignore
 # 2. Build image
@@ -493,7 +493,7 @@ docker tag myapp:latest myapp:v1.0
 docker push myapp:v1.0
 ```
 
-### **Production Workflow:**
+**Production Workflow:**
 ```bash
 # 1. Pull from registry
 docker pull myapp:v1.0
@@ -505,7 +505,6 @@ docker run -d -p 80:8080 --name prod-app myapp:v1.0
 docker logs -f prod-app
 ```
 
----
 
 ## **Key Takeaways**
 
@@ -516,9 +515,9 @@ docker logs -f prod-app
 5. **Docker Hub** allows sharing and distributing images
 6. **Always test** images locally before publishing
 
----
 
-## **Cleanup**
+
+#### **Cleanup**
 ```bash
 # Remove all stopped containers
 docker container prune
