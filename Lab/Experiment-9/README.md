@@ -13,12 +13,12 @@
 > Ansible is software that enables cross-platform automation and orchestration at scale and has become the standard choice among enterprise automation solutions.
 
 
-#### **Key Concepts**
+#### Key Concepts
 | Component       | Description |
 | :----------------|:------------|
-| **Control Node**|  Machine with Ansible installed| 
-| **Managed Nodes**|  Target servers (no Ansible agent needed)| 
-| **Inventory** | Defines the list of managed nodes (EC2 instances, servers, etc.). `inventory.ini`|
+| **Control Node**|  Machine with Ansible installed | 
+| **Managed Nodes**|  Target servers (no Ansible agent needed) | 
+| **Inventory** | Defines the list of managed nodes (EC2 instances, servers, etc.). `inventory.ini` |
 | **Playbooks** | YAML files containing a sequence of automation steps. |
 | **Tasks** | Individual actions in playbooks (e.g., installing a package). |
 | **Modules** | Built-in functionality to perform tasks (e.g., `yum`, `apt`, `service`). |
