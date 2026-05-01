@@ -15,7 +15,7 @@
 
 #### Key Concepts
 | Component       | Description |
-| :----------------|:------------|
+|----------------|------------|
 | **Control Node**|  Machine with Ansible installed | 
 | **Managed Nodes**|  Target servers (no Ansible agent needed) | 
 | **Inventory** | Defines the list of managed nodes (EC2 instances, servers, etc.). `inventory.ini` |
