@@ -14,6 +14,7 @@
 
 
 #### Key Concepts
+
 | Component       | Description |
 |----------------|------------|
 | **Control Node**|  Machine with Ansible installed | 
